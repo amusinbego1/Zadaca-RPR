@@ -18,6 +18,7 @@ public class App
             System.out.println(evaluator.evaluate(args[0]));
         }
         catch(Exception e){
+            System.out.println(e.getMessage());
             throw new RuntimeException("Invalid expression");
         }
     }
